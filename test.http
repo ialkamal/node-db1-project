@@ -1,0 +1,29 @@
+GET http://localhost:5000 HTTP/1.1
+
+###
+
+GET http://localhost:5000/17 HTTP/1.1
+
+###
+
+POST http://localhost:5000/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "account-20",
+    "budget": "9978"
+}
+
+###
+
+PUT http://localhost:5000/13 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "account-93",
+    "budget": "5987"
+}
+
+###
+
+DELETE http://localhost:5000/16 HTTP/1.1
